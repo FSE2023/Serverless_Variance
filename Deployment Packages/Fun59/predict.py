@@ -14,8 +14,8 @@ import time
 FILE_DIR = '/tmp'
 BUCKET = "bucketwendycyn"
 FOLDER = "prediction-pipeline"
-IMAGE  = "image.jpg"
-RESIZE_IMAGE = "mobilenet_v2_1.0_224_frozen.pb"
+MODEL  = "mobilenet_v2_1.0_224_frozen.pb"
+RESIZE_IMAGE = "resize-image.npy"
 
 def timestamp(response, event, startTime, endTime):
     stampBegin = 1000*time.time()
