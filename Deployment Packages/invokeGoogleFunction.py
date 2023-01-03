@@ -94,7 +94,7 @@ if __name__ == "__main__":
             try:
                 event1=json.dumps(events[f])
                 invoke_fun(fun_names[f], event1, output_file, fstr)
-                time.sleep(3)
+                time.sleep(5)
                 invoke_fun(fun_names[f], event1, output_file, fstr)
             except Exception as e:
                 print(e)
