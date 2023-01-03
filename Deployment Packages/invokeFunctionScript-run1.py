@@ -107,7 +107,7 @@ if __name__ == "__main__":
             print(">>>>>--repeat--{}--times--{}---".format(i, fstr))
             try:
                 function_invoke(fun_names[f], events[f], output_file, fstr)
-                time.sleep(3)
+                time.sleep(5)
                 function_invoke(fun_names[f], events[f], output_file, fstr)
             except Exception as e:
                 print(e)
