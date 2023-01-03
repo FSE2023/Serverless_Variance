@@ -106,7 +106,7 @@ if __name__ == "__main__":
                 with open(event_files[f],'r') as load_f:
                     event1 = json.load(load_f)
                 function_invoke(fun_names[f], event1, output_file, fstr)
-                time.sleep(3)
+                time.sleep(5)
                 function_invoke(fun_names[f], event1, output_file, fstr)
             except Exception as e:
                 print(e)
