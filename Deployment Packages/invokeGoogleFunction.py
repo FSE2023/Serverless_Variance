@@ -78,7 +78,7 @@ def invoke_fun(fun_name, req_para, output_file, fun_id):
 if __name__ == "__main__":
 
 
-    fun_ids=["Fun2","Fun4","Fun51","Fun52","Fun53"]
+    fun_ids=["Func2","Func4","Func51","Func52","Func53"]
 
     fun_names = ["adv_gcp_rdrand_fun2", "params_gcp", "fun51factor", "fun52matrix", "fun53filesystem"]
 

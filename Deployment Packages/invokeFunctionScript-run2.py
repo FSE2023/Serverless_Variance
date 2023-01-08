@@ -88,7 +88,7 @@ def function_invoke(fun_name, event, output_file, fun_id):
 if __name__ == "__main__":
 
 
-    fun_ids=["Fun20","Fun29","Fun54","Fun55","Fun56","Fun57","Fun60"]
+    fun_ids=["Func20","Func29","Func54","Func55","Func56","Func57","Func60"]
 
     fun_names = ["facefun20-dev-faceFun","Fun29transform-metadata","Fun54identifyphi","Fun55anonymize","Fun56deidentify","Fun57analytics-dev-analytics","Fun60render-dev-fun"]
 
