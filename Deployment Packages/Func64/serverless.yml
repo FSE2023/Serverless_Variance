@@ -8,6 +8,8 @@ custom:
 provider:
   name: aws
   runtime: nodejs12.x
+  memorySize: 1024
+  timeout: 6
   stage: dev
   region: us-west-1
   iam:
