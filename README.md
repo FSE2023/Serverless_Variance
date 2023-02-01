@@ -1,6 +1,6 @@
 # Revisiting the Performance of Serverless Computing: An Analysis of Variance
 
-* In the file "**CSRankings research papers.xlsx**", there are the detailed information about 59 research papers.
+* In the file "**Collected research papers.xlsx**", there are the detailed information about 59 research papers.
 
 * In the file "**Executed serverless functions.xlsx**", there are the detailed information about 65 serverless functions.
 
